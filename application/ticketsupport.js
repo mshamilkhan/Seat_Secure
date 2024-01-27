@@ -137,6 +137,13 @@ client.on('interactionCreate', async interaction => {
 
         await interaction.reply("What do you want to do for your ticket?");
     }
+
+    
+    // else if(interaction.commandName === 'del_chat_history'){
+    //     conversation = [];
+    //     // conversation.push[conversation];
+    //     await interaction.reply("Chat history");
+    // }
 });
 
 
